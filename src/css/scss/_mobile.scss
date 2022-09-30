@@ -1,0 +1,30 @@
+@media only screen and (max-width: 960px) {
+  //Ipad Pro 11
+  #root {
+    display: flex;
+    flex-direction: column-reverse;
+
+    font-family: "Helvetica";
+    height: 1194px;
+  }
+
+  .content :nth-child(5) {
+    order: 5;
+  }
+
+  .card {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    //Phone size
+    display: flex;
+    flex-direction: column-reverse;
+
+    width: 375px;
+    height: 813px;
+  }
+}
